@@ -1,0 +1,48 @@
+.cell{
+  border: 1px solid #000;
+}
+.field-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 16px;
+}
+.field{
+  width: 60vw;
+  height: 30vw;
+  display: grid;
+  gap: .5px;
+  
+}
+.tool-and-color{
+  display: flex;
+  height: 30vw;
+  width: 2vw;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+  
+}
+.color-cell, .tool-cell{
+  width: 100%;
+  aspect-ratio: 1/1;
+  background: #999;
+}
+.tool-cell img{
+  width: 80%;
+}
+.color-cell.blue {
+  background: blue;
+}
+.color-cell.green {
+  background: green;
+}
+.color-cell.yellow {
+  background: yellow;
+}
+.color-cell.red {
+  background: red;
+}
+.color-cell.purple {
+  background: purple;
+}
